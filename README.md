@@ -5,7 +5,7 @@
 
 ## Live Demo Browser 🌐
 
-
+[(https://img.shields.io/badge/Live%20Demo-Click%20Here-blue)](https://next-auth-shadcn-ui.vercel.app/)
 
 
 
@@ -50,7 +50,7 @@
 
 1. Clone the repository
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/the-mihir/next-auth-shadcn-ui.git
 cd next-auth-shadcn-ui
 ```
 
@@ -72,18 +72,6 @@ yarn dev
 
 Open [http://localhost:8080](http://localhost:8080) in your browser to view the app.
 
-## Project Structure
-
-```
-next-auth-shadcn-ui/
-├── src/
-│   ├── components/     # Reusable React components
-│   ├── layouts/        # Page layouts
-│   └── pages/          # Application pages
-├── public/             # Static assets
-├── tailwind.config.ts  # Tailwind CSS configuration
-└── package.json        # Project dependencies
-```
 
 ## Available Scripts
 
