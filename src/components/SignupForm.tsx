@@ -39,9 +39,12 @@ export function SignupForm() {
   }
 
   return (
-    <div className="mx-auto max-w-sm space-y-6">
+    <div className="mx-auto max-w-sm space-y-6 border rounded-md p-6">
       <div className="space-y-2 text-center">
+      <img className="w-15 h-15 rounded-full mx-auto mb-2 " src="https://placehold.co/75x75" alt="" />
         <h1 className="text-3xl font-bold">Create an account</h1>
+        
+        
         <p className="text-muted-foreground">Enter your information to create an account</p>
       </div>
       

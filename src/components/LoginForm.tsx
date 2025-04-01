@@ -40,9 +40,12 @@ export function LoginForm() {
   };
 
   return (
-    <div className="mx-auto max-w-sm space-y-6">
+    <div className="mx-auto max-w-sm space-y-6 border rounded-md p-6">
       <div className="space-y-2 text-center">
+        <div className="space-y-2">
+          <img className="w-15 h-15 rounded-full mx-auto mb-2 " src="https://placehold.co/75x75" alt="" />
         <h1 className="text-3xl font-bold">Login</h1>
+        </div>
         <p className="text-muted-foreground">Enter your credentials to access your account</p>
       </div>
       

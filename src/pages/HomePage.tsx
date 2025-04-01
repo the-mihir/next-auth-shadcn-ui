@@ -10,10 +10,10 @@ export default function HomePage() {
     <div className="flex flex-col items-center justify-center py-20 px-4 text-center">
       <div className="max-w-3xl space-y-6 animate-in slide-in">
         <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl bg-gradient-to-r from-primary to-blue-500 text-transparent bg-clip-text">
-          Next-level web application
+        Starter Kit for SaaS Development
         </h1>
         <p className="text-xl text-muted-foreground">
-          A modern web application built with React, Tailwind, and shadcn/ui for a seamless user experience.
+        Built with React, Tailwind, and shadcn/ui for a seamless user experience.
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           {user ? (

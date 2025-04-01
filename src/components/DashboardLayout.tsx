@@ -46,7 +46,7 @@ function DashboardSidebar() {
     <Sidebar>
       <SidebarContent>
         <div className="flex items-center gap-2 px-4 py-4">
-          <span className="text-xl font-bold bg-gradient-to-r from-primary to-blue-500 text-transparent bg-clip-text">Acme</span>
+          <span className="text-xl font-bold bg-gradient-to-r from-primary to-blue-500 text-transparent bg-clip-text">Dev Kit</span>
         </div>
         <SidebarGroup>
           <SidebarGroupLabel>Dashboard</SidebarGroupLabel>

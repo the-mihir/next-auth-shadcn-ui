@@ -11,7 +11,7 @@ export default function PublicLayout() {
       <header className="border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-16 items-center justify-between">
           <Link to="/" className="flex items-center gap-2">
-            <span className="text-2xl font-bold bg-gradient-to-r from-primary to-blue-500 text-transparent bg-clip-text">Acme</span>
+            <span className="text-2xl font-bold bg-gradient-to-r from-primary to-blue-500 text-transparent bg-clip-text uppercase">Dev Kit</span>
           </Link>
           
           <nav className="flex items-center gap-4">
@@ -40,7 +40,7 @@ export default function PublicLayout() {
       <footer className="border-t border-border/40 bg-background py-6">
         <div className="container flex flex-col items-center justify-center gap-4 md:flex-row md:justify-between">
           <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} Acme Inc. All rights reserved.
+            &copy; {new Date().getFullYear()} 💖Developed by <span className="font-bold"><a href="https://github.com/the-mihir" target="_blank" rel="noopener noreferrer">Mihir</a></span>.
           </p>
         </div>
       </footer>
