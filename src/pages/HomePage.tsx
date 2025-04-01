@@ -39,7 +39,6 @@ export default function HomePage() {
             key={feature.title} 
             className="rounded-lg border bg-card p-6 shadow-sm transition-all hover:shadow-md"
             style={{ 
-              animationDelay: `${i * 100}ms`,
               opacity: 0,
               animation: 'fadeIn 0.5s ease-out forwards',
               animationDelay: `${i * 100}ms`

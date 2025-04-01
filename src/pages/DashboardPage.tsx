@@ -1,7 +1,7 @@
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { useAuth } from "@/context/AuthContext";
-import { AreaChart, Bar, BarChart, Line, LineChart } from "lucide-react";
+import { BarChart2, LineChart, ActivitySquare, TrendingUp } from "lucide-react";
 
 export default function DashboardPage() {
   const { user } = useAuth();
@@ -44,7 +44,7 @@ export default function DashboardPage() {
           </CardHeader>
           <CardContent className="pl-2">
             <div className="h-[200px] w-full bg-secondary/30 rounded-md flex items-center justify-center">
-              <AreaChart className="h-8 w-8 text-muted-foreground/60" />
+              <ActivitySquare className="h-8 w-8 text-muted-foreground/60" />
               <span className="ml-2 text-muted-foreground">Chart data will appear here</span>
             </div>
           </CardContent>
@@ -89,19 +89,19 @@ const cards = [
     title: "Subscriptions",
     value: "+2350",
     description: "+180.1% from last month",
-    icon: BarChart,
+    icon: BarChart2,
   },
   {
     title: "Active Now",
     value: "+573",
     description: "+201 since last hour",
-    icon: AreaChart,
+    icon: ActivitySquare,
   },
   {
     title: "Conversion Rate",
     value: "24.3%",
     description: "+1.3% from last week",
-    icon: Bar,
+    icon: TrendingUp,
   },
 ];
 
